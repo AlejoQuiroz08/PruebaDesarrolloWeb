@@ -23,12 +23,12 @@
     </div>
     <div class="form-group">
       <label for="email">Correo Electrónico:</label>
-      <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+      <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required title="Utilice el simbolo '@' ">
     </div>
     <div class="form-group">
       <label for="contact">Contacto:</label>
-      <input type="text" class="form-control" id="contact" placeholder="Ingrese su número de contacto" required>
-    </div>
+      <input type="text" class="form-control" id="contact" placeholder="Ingrese su número de contacto" required pattern="[0-9]+" title="Ingrese solo números">
+  </div>
     <div class="form-group">
       <label for="experience">Experiencia:</label>
       <input type="text" class="form-control" id="experience" placeholder="Ingrese su experiencia" required>
@@ -47,7 +47,7 @@
     </div>
     <div class="form-group">
       <label for="position">Posición:</label>
-      <input type="text" class="form-control" id="position" placeholder="Ingrese la posición" required>
+      <input type="text" class="form-control" id="position" placeholder="Ingrese el rol especifico al que desea postular" required>
     </div>
     <div class="form-group">
       <label for="vacant">Vacante:</label>
@@ -59,10 +59,10 @@
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
+  <textarea readonly class="form-control mt-3" id="showLetter" rows="6"></textarea>
   <div class="mt-3">
     <a href="https://prueba3-pofc.onrender.com/save-letter" class="btn btn-secondary">Descargar Archivo</a>
   </div>
-  <textarea readonly class="form-control mt-3" id="showLetter" rows="6"></textarea>
 </div>
 
 
@@ -100,6 +100,7 @@
     } catch (error) {
       console.log(error);
     }
+    document.getElementById('confirmation-message').style.display = 'block';
   });
 </script>
 
