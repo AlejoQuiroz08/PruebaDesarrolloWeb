@@ -14,6 +14,8 @@ Mantenimiento de un estado sin estado, donde cada solicitud del cliente contiene
 A continuación, el paso a paso de como consumimos una API de generación de memes aleatorios: 
 
 Paso a paso de la elaboracion del codigo:
+
+
 𝟏. 𝐒𝐞𝐩𝐚𝐫𝐚𝐜𝐢ó𝐧 𝐝𝐞 𝐜𝐨𝐧𝐜𝐞𝐫𝐧𝐬 (𝐒𝐞𝐩𝐚𝐫𝐚𝐜𝐢ó𝐧 𝐝𝐞 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐞𝐬)
 
 En el código, tenemos mezclado HTML, CSS y JavaScript en un solo archivo. Ocupamos separarlos en archivos independientes para facilitar la lectura y el mantenimiento. Así, podemos trabajar en cada parte del proyecto de manera más organizada.
