@@ -1,6 +1,6 @@
 ![image](https://github.com/AlejoQuiroz08/PruebaDesarrolloWeb/assets/150806786/33dcfb9d-b3ba-4694-9884-dacb6c4f244b)
             
-                                                   𝘾𝙊𝙉𝙎𝙐𝙈𝙊 𝘿𝙀 𝘼𝙋𝙞 - 𝙋𝙧𝙪𝙚𝙗𝙖 𝙙𝙚 𝘿𝙚𝙨𝙖𝙧𝙧𝙤𝙡𝙡𝙤 𝙒𝙚𝙗
+                                    𝘾𝙊𝙉𝙎𝙐𝙈𝙊 𝘿𝙀 𝘼𝙋𝙞 - 𝙋𝙧𝙪𝙚𝙗𝙖 𝙙𝙚 𝘿𝙚𝙨𝙖𝙧𝙧𝙤𝙡𝙡𝙤 𝙒𝙚𝙗
 
 Aqui analizaremos en detalle las APIs RESTful y sus conceptos fundamentales, incluyendo HTTP, API, REST, JSON, cliente y servidor. Además, abordaremos los beneficios de utilizar este tipo de APIs en el desarrollo de software, tales como la estandarización, simplicidad, escalabilidad y estado sin estado. A medida que avancemos, profundizaremos en cada uno de estos aspectos para proporcionar una comprensión sólida de cómo las APIs RESTful pueden optimizar la comunicación entre sistemas y facilitar la integración de servicios en aplicaciones complejas.
 
